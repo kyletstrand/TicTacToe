@@ -1,0 +1,28 @@
+*****************************************************
+*                TICTACTOE v0.1                     *
+*                  Kyle Strand                      *
+*              kyletstrand@gmail.com                *
+*****************************************************
+                
+
+This is a super beta version of my command line Tic Tac Toe Game.
+
+At the moment, all that can be done is play a 2 player game.
+
+To install, simply untar and type 'make'
+
+Then type ./TicTacToe
+
+The game starts with X
+
+to play, simply use the number pad to type which slot you want to play.
+
+
+1|2|3
+-|-|-
+4|5|6
+-|-|-
+7|8|9
+
+
+Email me with suggestions!
