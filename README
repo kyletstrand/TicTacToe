@@ -1,11 +1,15 @@
 *****************************************************
-*                TICTACTOE v0.1                     *
+*                TICTACTOE v0.2                     *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
                 
+Updates for v0.2:
+	-Cleaned up code and fixed header file so that each function
+	 function gets it's own file and is easily accessible.
+	-All other functionality is the same as v0.1.
 
-This is a super beta version of my command line Tic Tac Toe Game.
+This is still a super beta version of my command line Tic Tac Toe Game.
 
 At the moment, all that can be done is play a 2 player game.
 
@@ -26,3 +30,4 @@ to play, simply use the number pad to type which slot you want to play.
 
 
 Email me with suggestions!
+

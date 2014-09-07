@@ -1,0 +1,23 @@
+IMPROVEMENTS FOR THIS PROGRAM BY PRIORITY:
+
+1) Fix input method for game play.
+	-take all input as string and check whether it is between 1 and 9.
+	-convert string to integer
+	-use this method to change quit method from '10' to 'q' or 'quit'
+
+2) Add Dutch language support
+	-Boter kass en eiren
+	-look up terms and such
+
+3) Build computer AI
+	-Start random entries
+	-Add difficulty levels
+
+4) Build main menu
+	-two player
+	-vs computer
+	-profile support
+
+5) Build profiles and save format for game record
+	-create a .sav file using the name entered in the profile
+	-use to store wins, losses, and ties against AI
