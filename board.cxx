@@ -1,13 +1,9 @@
 #include "board.h"
 
-int main(int argc, char **argv) {
+void Board() {
 
-   for (int i=1; i < argc; i++ ) {
-      const string arg = argv[i];
-      if (arg == "--help" || arg == "-h") help();
-   }
-
-   int slot;
+   //string slot;       // was int slot
+   int slot1;
    int win = 0;
    int player = 1; // to determine X or O
    int linenum;
@@ -22,13 +18,12 @@ int main(int argc, char **argv) {
 
    Initialize(top, topline, middle, bottomline, bottom);
    while (win != 1) {
-      SelectPlay(slot, linenum, player);
-      if (player % 2 == 1) WriteToBoardX(slot, linenum, top, middle, bottom, X, O, player);      
-      else if (player % 2 == 0) WriteToBoardO(slot, linenum, top, middle, bottom, X, O, player);
+      SelectPlay(linenum, player, slot1);               //SelectPlay(slot, linenum, player, slot1)
+      if (player % 2 == 1) WriteToBoardX(slot1, linenum, top, middle, bottom, X, O, player); 
+      else if (player % 2 == 0) WriteToBoardO(slot1, linenum, top, middle, bottom, X, O, player);
       Draw(top, topline, middle, bottomline, bottom);
       CheckWin(win, X, O);
       player++;
    }
 
-   return 0;
 }

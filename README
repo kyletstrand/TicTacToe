@@ -1,9 +1,15 @@
 *****************************************************
-*                TICTACTOE v0.2                     *
+*                TICTACTOE v0.21                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
                 
+Updates for v0.21:
+	-Fixed bug causing infinite loop if character was entered in
+	 during gameplay instead of an integer.
+	-Fixed bug that gives Cat's Game result no matter what the 
+	 result if the board is filled at the end of the game.
+
 Updates for v0.2:
 	-Cleaned up code and fixed header file so that each function
 	 function gets it's own file and is easily accessible.

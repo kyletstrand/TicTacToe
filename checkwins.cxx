@@ -21,6 +21,8 @@ void CheckWin(int &wind, bool Xmar[], bool Omar[]) {
    if (Omar[0] == true && Omar[4] == true && Omar[8] == true) WinO(wind);
    if (Omar[2] == true && Omar[4] == true && Omar[6] == true) WinO(wind);
 
+   if (wind == 1) return;
+
    for (int i = 0; i < 9; i++) {
       Xresult = Xmar[i] + Xresult;
    }
