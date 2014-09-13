@@ -1,9 +1,20 @@
 *****************************************************
-*                TICTACTOE v0.21                    *
+*                TICTACTOE v0.3                     *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
                 
+Updates for v0.3:
+	-Added a main menu. This is now the main interface for the 
+	 program to function.
+	-Added Dutch language support. If you speak/read Dutch, you
+	 can play Boter-kass-en-eiren.
+	-Reorganized the file format so all the source and header files
+	 are now placed in the src driectory.
+	-Rewrote Makefile for better organization and functionality. 
+	 The make file now creates a directory, obj, and places all 
+	 the object files in this directory.
+
 Updates for v0.21:
 	-Fixed bug causing infinite loop if character was entered in
 	 during gameplay instead of an integer.
