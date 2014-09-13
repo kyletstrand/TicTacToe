@@ -8,7 +8,7 @@ void nlOnePlay();
 void nlBoard();
 void nlProfile();
 void nlhelp();
-void nlSelectPlay(int &line, int &play, int &slots);
+void nlSelectPlay(int &play, int &slots);
 void nlCheckWin(int &wind, bool Xmar[], bool Omar[]);
 void nlCatsGame(int &wins);
 

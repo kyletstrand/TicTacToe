@@ -1,8 +1,14 @@
 *****************************************************
-*                TICTACTOE v0.3                     *
+*                TICTACTOE v0.31                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
+
+Updates for v0.31
+	-Cleaned up some of the code by removing commented lines 
+	 that are no longer needed. Removed some unnecessary 
+	 variables that were no longer used. Added consts to 
+	 variables which do not change.
                 
 Updates for v0.3:
 	-Added a main menu. This is now the main interface for the 

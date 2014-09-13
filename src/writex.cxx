@@ -1,9 +1,7 @@
 #include "board.h"
 
 
-void WriteToBoardX(int &slo, int &line, string &up, string &mid, string &bot, bool Xmarkx[], bool Omarkx[], int &play) {
-   string test;
-   int check;
+void WriteToBoardX(int &slo, string &up, string &mid, string &bot, bool Xmarkx[], bool Omarkx[], int &play) {
    if (slo == 1) {
       if (Xmarkx[0] == true || Omarkx[0] == true) {
          play++;

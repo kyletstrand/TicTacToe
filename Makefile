@@ -12,8 +12,8 @@ $(EXECUTABLE): $(OBJ)/$(EXECUTABLE).o
 	@echo "Building executable..."
 	@$(CXX) $(OBJECTS) -o $(EXECUTABLE)
 	@if [ ! -d $(OBJ) ]; \
-	then \
-	mkdir $(OBJ); \
+		then \
+			mkdir $(OBJ); \
 	fi
 	@mv $(OBJECTS) $(OBJ)
 	@mv src/*gch $(OBJ)
