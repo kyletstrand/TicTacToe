@@ -5,10 +5,10 @@
 
 void nlMainMenu();
 void nlOnePlay();
-void nlBoard();
+void nlBoard(bool oneplayer);
 void nlProfile();
 void nlhelp();
-void nlSelectPlay(int &play, int &slots);
+void nlSelectPlay(int &play, int &slots, bool oneplay);
 void nlCheckWin(int &wind, bool Xmar[], bool Omar[]);
 void nlCatsGame(int &wins);
 

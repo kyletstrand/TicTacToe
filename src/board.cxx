@@ -1,6 +1,6 @@
 #include "board.h"
 
-void Board() {
+void Board(bool oneplayer) {
 
    int slot1;
    int win = 0;
@@ -17,7 +17,7 @@ void Board() {
 
    Initialize(top, topline, middle, bottomline, bottom);
    while (win != 1) {
-      SelectPlay(player, slot1);               //SelectPlay(slot, linenum, player, slot1)
+      SelectPlay(player, slot1, oneplayer);               //SelectPlay(slot, linenum, player, slot1)
       if (player % 2 == 1) WriteToBoardX(slot1, top, middle, bottom, X, O, player); 
       else if (player % 2 == 0) WriteToBoardO(slot1, top, middle, bottom, X, O, player);
       Draw(top, topline, middle, bottomline, bottom);

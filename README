@@ -4,6 +4,11 @@
 *              kyletstrand@gmail.com                *
 *****************************************************
 
+Updates for v0.4
+	-Wrote a one player version with a difficulty level of
+	 playing someone who has absolutely no idea about 
+	 basic TicTacToe strategy.
+
 Updates for v0.31
 	-Cleaned up some of the code by removing commented lines 
 	 that are no longer needed. Removed some unnecessary 

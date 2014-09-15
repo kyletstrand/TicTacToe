@@ -4,6 +4,7 @@ void nlMainMenu() {
 
    string x;
    int z = 0;
+   bool oneplayergame = false;
 
    while (z == 0) {
       system("clear");
@@ -19,10 +20,14 @@ void nlMainMenu() {
       cout << "Voer een van de bovenstaande opties: ";
       cin >> x;
 
-      if (x == "1") nlOnePlay();
-      if (x == "2") nlBoard();
+      if (x == "1") {
+         oneplayergame = true;
+         nlBoard(oneplayergame);
+      }
+      if (x == "2") nlBoard(oneplayergame);
       if (x == "3") nlProfile();
       if (x == "4") nlhelp();
       if (x == "5" || x == "q" || x == "quit") exit(0);
+      oneplayergame = false;
    }
 }
