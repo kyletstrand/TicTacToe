@@ -1,8 +1,11 @@
 *****************************************************
-*                TICTACTOE v0.4                     *
+*                TICTACTOE v0.41                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
+
+Updates for v0.41
+	-Bug fixes in random number seeding.
 
 Updates for v0.4
 	-Wrote a one player version with a difficulty level of

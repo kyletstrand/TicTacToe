@@ -13,6 +13,7 @@ void nlBoard(bool oneplayer) {
    const string topline = "-|-|-";
    bool X[9] = {false}; // bool array for X's
    bool O[9] = {false}; // bool array for O's
+   srand(time(NULL));
 
    system("clear");
 

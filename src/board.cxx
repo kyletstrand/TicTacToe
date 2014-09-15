@@ -12,6 +12,7 @@ void Board(bool oneplayer) {
    const string bottomline = "-|-|-";
    bool X[9] = {false}; // bool array for X's
    bool O[9] = {false}; // bool array for O's
+   srand(time(NULL));
 
    system("clear");
 
