@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
    }
 
    NewName.profileload = false;
-   MainMenu();                           //Call menu
+   MainMenu();                           //This is just a placeholder for the menu
 
    return 0;
 }

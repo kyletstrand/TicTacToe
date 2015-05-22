@@ -27,6 +27,7 @@ $(EXECUTABLE): $(OBJ)/$(EXECUTABLE).o
 
 $(OBJ)/$(EXECUTABLE).o: $(SOURCES) $(NLSOURCES)
 	@echo "Making object files..." 
+	@echo "Making source files..." 
 	@$(CXX) $(CFLAGS) $(SOURCES)
 	@$(CXX) $(CFLAGS) $(NLSOURCES)
 
