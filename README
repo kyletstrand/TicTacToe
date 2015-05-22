@@ -1,0 +1,83 @@
+*****************************************************
+*                TICTACTOE v0.50                    *
+*                  Kyle Strand                      *
+*              kyletstrand@gmail.com                *
+*****************************************************
+
+Updates for v0.50
+	-Implemented Profiles class.
+	-Player can now crate a profile under their name and 
+	 their wins, losses, and ties are now saved.
+	-Makefile now checks to see if 'sav/' directory 
+	 exists and creates it if necessary.
+	-Profile save data is stored in 'sav/' directory.
+
+Updates for v0.41
+	-Bug fixes in random number seeding.
+
+Updates for v0.4
+	-Wrote a one player version with a difficulty level of
+	 playing someone who has absolutely no idea about 
+	 basic TicTacToe strategy.
+
+Updates for v0.31
+	-Cleaned up some of the code by removing commented lines 
+	 that are no longer needed. Removed some unnecessary 
+	 variables that were no longer used. Added consts to 
+	 variables which do not change.
+                
+Updates for v0.3:
+	-Added a main menu. This is now the main interface for the 
+	 program to function.
+	-Added Dutch language support. If you speak/read Dutch, you
+	 can play Boter-kass-en-eiren.
+	-Reorganized the file format so all the source and header files
+	 are now placed in the src driectory.
+	-Rewrote Makefile for better organization and functionality. 
+	 The make file now creates a directory, obj, and places all 
+	 the object files in this directory.
+
+Updates for v0.21:
+	-Fixed bug causing infinite loop if character was entered in
+	 during gameplay instead of an integer.
+	-Fixed bug that gives Cat's Game result no matter what the 
+	 result if the board is filled at the end of the game.
+
+Updates for v0.2:
+	-Cleaned up code and fixed header file so that each function
+	 function gets it's own file and is easily accessible.
+	-All other functionality is the same as v0.1.
+
+This is still a super beta version of my command line Tic Tac Toe Game.
+
+At the moment, all that can be done is play a 2 player game.
+
+To install, simply untar and type 'make'
+
+Then type ./TicTacToe
+
+The game starts with X
+
+to play, simply use the number pad to type which slot you want to play.
+
+
+1|2|3
+-|-|-
+4|5|6
+-|-|-
+7|8|9
+
+
+Email me with suggestions!
+
+===GNU General Public License===
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 3 of the License, or any later
+version. This program is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+					Last updated 22 May 2015
