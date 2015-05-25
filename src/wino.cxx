@@ -4,11 +4,12 @@
 extern Profiles NewName;
 
 void WinO(int &wins) {
-   cout << "O's win!" << endl;
+   cout << "O wins!" << endl;
    wins = 1;
    if (NewName.profileload == true) {
       NewName.losses++;
       NewName.Save();
    }
+   cin.get();
    cin.ignore();
 }

@@ -4,6 +4,11 @@
 *              kyletstrand@gmail.com                *
 *****************************************************
 
+Update for v0.52
+        -Set up a random int to generate whether X or O starts.
+        -If a profile has been loaded, the SelectPlay function
+         imports the player name and uses that in place of 'X.'
+
 Update for v0.51
 	-Silly blatant bug fix I can't even believe I missed...
 

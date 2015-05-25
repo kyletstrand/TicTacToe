@@ -10,5 +10,6 @@ void CatsGame(int &wins) {
       NewName.cats++;
       NewName.Save();
    }
+   cin.get();
    cin.ignore();
 }
