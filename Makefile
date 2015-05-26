@@ -7,7 +7,7 @@ NLSOURCES = src/NL/*.cxx src/NL/nl.h
 OBJECTS = *.o
 EXECUTABLE = TicTacToe
 
-all: $(EXECUTABLE)
+install: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJ)/$(EXECUTABLE).o
 	@echo "Building executable..."

@@ -1,28 +1,34 @@
 *****************************************************
-*                TICTACTOE v0.61                    *
+*                TICTACTOE v0.62                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
 
-Update for v0.61
+Update for v0.62:
+        -Changed the Makefile so it takes 'make install' as the 
+         install parameter.
+        -Cleaned up README.
+        -Changed help file slightly.
+
+Update for v0.61:
         -Cleaned up declarations in header files.
         -Fixed some of the code in the Dutch folder.
         -The Dutch code still needs to be reworked to work with
          the profiles class.
 
-Update for v0.60
+Update for v0.60:
         -Rewrote the functions to pass objects to each function
          instead of using global objects.
 
-Update for v0.52
+Update for v0.52:
         -Set up a random int to generate whether X or O starts.
         -If a profile has been loaded, the SelectPlay function
          imports the player name and uses that in place of 'X.'
 
-Update for v0.51
+Update for v0.51:
 	-Silly blatant bug fix I can't even believe I missed...
 
-Updates for v0.50
+Updates for v0.50:
 	-Implemented Profiles class.
 	-Player can now crate a profile under their name and 
 	 their wins, losses, and ties are now saved.
@@ -30,15 +36,15 @@ Updates for v0.50
 	 exists and creates it if necessary.
 	-Profile save data is stored in 'sav/' directory.
 
-Updates for v0.41
+Updates for v0.41:
 	-Bug fixes in random number seeding.
 
-Updates for v0.4
+Updates for v0.4:
 	-Wrote a one player version with a difficulty level of
 	 playing someone who has absolutely no idea about 
 	 basic TicTacToe strategy.
 
-Updates for v0.31
+Updates for v0.31:
 	-Cleaned up some of the code by removing commented lines 
 	 that are no longer needed. Removed some unnecessary 
 	 variables that were no longer used. Added consts to 
@@ -66,17 +72,24 @@ Updates for v0.2:
 	 function gets it's own file and is easily accessible.
 	-All other functionality is the same as v0.1.
 
-This is still a super beta version of my command line Tic Tac Toe Game.
+This is a command line Tic Tac Toe game. It is still in development, 
+but is mostly playable. Currently, the game can be played as one or
+two player. A profile can be created which will save your win, loss, 
+and tie record under your name. This can be played in English or 
+Dutch.
 
-At the moment, all that can be done is play a 2 player game.
+An AI is currently being developed so that the player can play 
+against a computer player in an easy, intermediate, or hard 
+mode. The only difficulty level currenly available in one-player
+mode is easy.
 
-To install, simply untar and type 'make'
+To install, simply untar and type 'make install'
 
 Then type ./TicTacToe
 
-The game starts with X
+The game randomly chooses if X or O will start.
 
-to play, simply use the number pad to type which slot you want to play.
+to play, use the number pad to type which slot you want to play.
 
 
 1|2|3
@@ -98,4 +111,4 @@ useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 General Public License for more details.
 
-					Last updated 22 May 2015
+					Last updated 25 May 2015

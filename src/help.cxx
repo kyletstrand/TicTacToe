@@ -3,7 +3,7 @@
 void help() {
 
    system("clear");
-   cout << endl << "Help will go here." << endl << endl << "Kyle Strand - 2014" << endl;
+   cout << endl << "Help will go here. This will not be written until the release of v1.0." << endl << endl << "Kyle Strand - 2015" << endl;
    cin.ignore();
    cin.get();
    /*cout << endl << "Press '1' to play or 'q' to quit." << endl;
