@@ -1,9 +1,9 @@
 #include "board.h"
 #include "profclass.h"
 
-extern Profiles NewName;
+//extern Profiles NewName;
 
-void WinX(int &wins) {
+void WinX(Profiles &NewName, int &wins) {
    cout << NewName.name << " wins!" << endl;
    wins = 1;
    if (NewName.profileload == true) {

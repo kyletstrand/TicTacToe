@@ -1,9 +1,9 @@
 #include "board.h"
 #include "profclass.h"
 
-extern Profiles NewName;
+//extern Profiles NewName;
 
-void CatsGame(int &wins) {
+void CatsGame(Profiles &NewName, int &wins) {
    cout << "Cat's game!" << endl;
    wins = 1;
    if (NewName.profileload == true) {

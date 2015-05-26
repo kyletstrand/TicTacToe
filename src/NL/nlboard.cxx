@@ -1,7 +1,8 @@
 #include "../board.h"
 #include "nl.h"
+#include "../profclass.h"
 
-void nlBoard(bool oneplayer) {
+void nlBoard(Profiles NewName, bool oneplayer) {
 
    int slot1;
    int win = 0;
@@ -23,7 +24,7 @@ void nlBoard(bool oneplayer) {
       if (player % 2 == 1) WriteToBoardX(slot1, top, middle, bottom, X, O, player); 
       else if (player % 2 == 0) WriteToBoardO(slot1, top, middle, bottom, X, O, player);
       Draw(top, topline, middle, bottomline, bottom);
-      CheckWin(win, X, O);
+      CheckWin(NewName, win, X, O);
       player++;
    }
 

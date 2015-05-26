@@ -1,6 +1,7 @@
 #include "nl.h"
+#include "../profclass.h"
 
-void nlMainMenu() {
+void nlMainMenu(Profiles NewName) {
 
    string x;
    int z = 0;
@@ -22,9 +23,9 @@ void nlMainMenu() {
 
       if (x == "1") {
          oneplayergame = true;
-         nlBoard(oneplayergame);
+         nlBoard(NewName, oneplayergame);
       }
-      if (x == "2") nlBoard(oneplayergame);
+      if (x == "2") nlBoard(NewName, oneplayergame);
       if (x == "3") nlProfile();
       if (x == "4") nlhelp();
       if (x == "5" || x == "q" || x == "quit") exit(0);

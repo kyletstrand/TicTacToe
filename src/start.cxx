@@ -2,18 +2,20 @@
 #include "NL/nl.h"
 #include "profclass.h"
 
-Profiles NewName;
+//Profiles NewName;
 
 int main(int argc, char **argv) {
+
+   Profiles NewName;
 
    for (int i=1; i < argc; i++ ) {
       const string arg = argv[i];
       if (arg == "--help" || arg == "-h") help();
-      if (arg == "-nl" || arg == "-NL") nlMainMenu();
+      if (arg == "-nl" || arg == "-NL") nlMainMenu(NewName);
    }
 
    NewName.profileload = false;
-   MainMenu();                           //This is just a placeholder for the menu
+   MainMenu(NewName);                           //This is just a placeholder for the menu
 
    return 0;
 }

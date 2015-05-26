@@ -1,8 +1,12 @@
 *****************************************************
-*                TICTACTOE v0.51                    *
+*                TICTACTOE v0.60                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
+
+Update for v0.60
+        -Rewrote the functions to pass objects to each function
+         instead of using global objects.
 
 Update for v0.52
         -Set up a random int to generate whether X or O starts.

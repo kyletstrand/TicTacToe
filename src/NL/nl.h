@@ -2,14 +2,15 @@
 #define nl_H
 
 #include "../board.h"
+#include "../profclass.h"
 
-void nlMainMenu();
+void nlMainMenu(Profiles NewName);
 void nlOnePlay();
-void nlBoard(bool oneplayer);
+void nlBoard(Profiles NewName, bool oneplayer);
 void nlProfile();
 void nlhelp();
 void nlSelectPlay(int &play, int &slots, bool oneplay);
-void nlCheckWin(int &wind, bool Xmar[], bool Omar[]);
+void nlCheckWin(Profiles NewName, int &wind, bool Xmar[], bool Omar[]);
 void nlCatsGame(int &wins);
 
 #endif

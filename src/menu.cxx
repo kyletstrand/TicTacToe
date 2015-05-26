@@ -1,6 +1,7 @@
 #include "board.h"
+#include "profclass.h"
 
-void MainMenu() {
+void MainMenu(Profiles &NewName) {
 
    string x;
    int z = 0;
@@ -23,10 +24,10 @@ void MainMenu() {
 
       if (x =="1") {
          oneplayergame = 1;
-         Board(oneplayergame);
+         Board(NewName, oneplayergame);
       }
-      if (x == "2") Board(oneplayergame);
-      if (x == "3") Profile();
+      if (x == "2") Board(NewName, oneplayergame);
+      if (x == "3") Profile(NewName);
       if (x == "4") help();
       if (x == "5" || x == "q" || x == "quit") exit(0);
       oneplayergame = false;

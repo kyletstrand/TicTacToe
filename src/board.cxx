@@ -1,9 +1,9 @@
 #include "board.h"
 #include "profclass.h"
 
-extern Profiles NewName;
+//extern Profiles NewName;
 
-void Board(bool oneplayer) {
+void Board(Profiles &NewName, bool oneplayer) {
 
    int slot1;
    int win = 0;
@@ -22,11 +22,11 @@ void Board(bool oneplayer) {
    Initialize(top, topline, middle, bottomline, bottom);
    if (NewName.profileload == false) NewName.name = 'X';
    while (win != 1) {
-      SelectPlay(player, slot1, oneplayer);               //SelectPlay(slot, linenum, player, slot1)
+      SelectPlay(NewName, player, slot1, oneplayer);               //SelectPlay(slot, linenum, player, slot1)
       if (player % 2 == 1) WriteToBoardX(slot1, top, middle, bottom, X, O, player); 
       else if (player % 2 == 0) WriteToBoardO(slot1, top, middle, bottom, X, O, player);
       Draw(top, topline, middle, bottomline, bottom);
-      CheckWin(win, X, O);
+      CheckWin(NewName, win, X, O);
       player++;
    }
 

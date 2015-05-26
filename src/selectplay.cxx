@@ -1,9 +1,9 @@
 #include "board.h"
 #include "profclass.h"
 
-extern Profiles NewName;
+//extern Profiles NewName;
 
-void SelectPlay(int &play, int &slots, bool oneplay) {
+void SelectPlay(Profiles &NewName, int &play, int &slots, bool oneplay) {
    string slo;
    if ((play % 2) == 1) cout << NewName.name << "'s turn!" << endl;
    else if ((play % 2) == 0 && oneplay == true) {

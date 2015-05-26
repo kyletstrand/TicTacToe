@@ -10,7 +10,7 @@ class Profiles {
    public:
 /******  Variable Declarations ******/
 
-      string name;
+      std::string name;
       int wins, losses, cats;
       bool profileload;
 
