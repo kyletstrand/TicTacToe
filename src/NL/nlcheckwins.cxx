@@ -2,7 +2,7 @@
 #include "nl.h"
 #include "../profclass.h"
 
-void nlCheckWin(Profiles NewName, int &wind, bool Xmar[], bool Omar[]) {
+void nlCheckWin(Profiles &NewName, int &wind, bool Xmar[], bool Omar[]) {
    int Xresult = 0;
    int Oresult = 0;
    if (Xmar[0] == true && Xmar[1] == true && Xmar[2] == true) WinX(NewName,wind);

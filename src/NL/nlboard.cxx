@@ -2,7 +2,7 @@
 #include "nl.h"
 #include "../profclass.h"
 
-void nlBoard(Profiles NewName, bool oneplayer) {
+void nlBoard(Profiles &NewName, bool oneplayer) {
 
    int slot1;
    int win = 0;

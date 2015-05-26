@@ -1,7 +1,7 @@
 #include "nl.h"
 #include "../profclass.h"
 
-void nlMainMenu(Profiles NewName) {
+void nlMainMenu(Profiles &NewName) {
 
    string x;
    int z = 0;

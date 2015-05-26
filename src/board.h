@@ -13,16 +13,16 @@ using namespace std;
 void help();
 void Initialize(string, string, string, string, string);
 void Draw(string, string, string, string, string);
-void SelectPlay(Profiles &NewName, int &, int &, bool);
+void SelectPlay(Profiles &, int &, int &, bool);
 void WriteToBoardX(int &, string &, string &, string &, bool [], bool [], int &);
 void WriteToBoardO(int &, string &, string &, string &, bool [], bool [], int &);
-void WinX(Profiles &NewName, int &);
-void WinO(Profiles &NewName, int &);
-void CatsGame(Profiles &NewName, int &);
-void CheckWin(Profiles &NewName, int &, bool [], bool []); 
-void MainMenu(Profiles &NewName);
-void Board(Profiles &NewName, bool);
+void WinX(Profiles &, int &);
+void WinO(Profiles &, int &);
+void CatsGame(Profiles &, int &);
+void CheckWin(Profiles &, int &, bool [], bool []); 
+void MainMenu(Profiles &);
+void Board(Profiles &, bool);
 void OnePlay(int &);
-void Profile(Profiles &NewName);
+void Profile(Profiles &);
 
 #endif

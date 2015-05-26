@@ -1,8 +1,14 @@
 *****************************************************
-*                TICTACTOE v0.60                    *
+*                TICTACTOE v0.61                    *
 *                  Kyle Strand                      *
 *              kyletstrand@gmail.com                *
 *****************************************************
+
+Update for v0.61
+        -Cleaned up declarations in header files.
+        -Fixed some of the code in the Dutch folder.
+        -The Dutch code still needs to be reworked to work with
+         the profiles class.
 
 Update for v0.60
         -Rewrote the functions to pass objects to each function
